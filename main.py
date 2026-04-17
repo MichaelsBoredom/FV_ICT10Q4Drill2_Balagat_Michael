@@ -2,7 +2,7 @@ from pyscript import display, document
 import numpy as np
 import matplotlib.pyplot as plt
 
-def sample_numpy(e):
+def numpy(e):
     document.getElementById('output').innerHTML = " "
 
     calories =  np.array(['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'])
